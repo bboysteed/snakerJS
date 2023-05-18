@@ -1,0 +1,27 @@
+#box {
+    background-color: #d8edfb;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+
+
+div[id^="grid"]{
+    width: 20px;
+    height: 20px;
+    border-radius: 7px;
+}
+#pointDiv{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+}
